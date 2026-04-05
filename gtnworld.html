@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Terhemen Nyinongo | Portfolio</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0f172a;
+        color: white;
+    }
+
+    header {
+        background: #020617;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        color: #38bdf8;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 50px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+        color: #38bdf8;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #38bdf8;
+        color: black;
+        text-decoration: none;
+        margin-top: 15px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        background: #1e293b;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #020617;
+    }
+
+    .social-icons img {
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    @media(max-width: 700px){
+        .projects {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Gabriel Terhemen Nyinongo</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- LinkedIn in Header -->
+    <p>
+        <a href="https://www.linkedin.com/in/gabriel-nyinongo-500242279" 
+           target="_blank" 
+           style="color:#38bdf8;">
+           Connect on LinkedIn
+        </a>
+    </p>
+</header>
+
+<section class="hero">
+    <h2>Physics | Data Science | Tech</h2>
+    <p>I build solutions using science and technology.</p>
+    <a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Physics graduate passionate about renewable energy, data science,
+        and technology innovation. I specialize in solar cell simulation,
+        Python programming, and research.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+        <div class="card">
+            <h3>Solar Cell Simulation</h3>
+            <p>Simulation of perovskite solar cells using SCAPS-1D.</p>
+        </div>
+
+        <div class="card">
+            <h3>Python Projects</h3>
+            <p>Data analysis and automation using Python.</p>
+        </div>
+
+        <div class="card">
+            <h3>ICT Training Hub</h3>
+            <p>Building GTNWorld for youth tech empowerment.</p>
+        </div>
+
+        <div class="card">
+            <h3>Research Work</h3>
+            <p>Studies on technology and physics education.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>Email:gabrielnyinongo@email.com</p>
+
+    <!-- LinkedIn Button -->
+    <a href="https://www.linkedin.com/in/gabriel-nyinongo-500242279" 
+       target="_blank" 
+       class="btn">
+       Visit My LinkedIn
+    </a>
+
+    <!-- LinkedIn Icon -->
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/gabriel-nyinongo-500242279" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+                 width="35" 
+                 alt="LinkedIn">
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Gabriel Terhemen Nyinongo | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
